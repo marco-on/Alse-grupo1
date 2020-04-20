@@ -1,9 +1,9 @@
 #include <iostream>
-using namespace std;
+//using namespace std;
 
 int main (int argc, char *argv[])
 {
-	cout << "la cantidad de argumentos de entrada son: " << argc << endl;
+	std::cout << "la cantidad de argumentos de entrada son: " << argc << std::endl;
 
 	return 0;
 }
